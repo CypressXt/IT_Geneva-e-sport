@@ -24,9 +24,9 @@ Python        | language de script               | [Python](https://python.org)
 Voici la liste des systèmes d'exploitations couramment utilisés lors du développement d'applications web.
 
 #### Serveurs
-Dans l'optique d'optenir les meilleures performances possibles, il est recommandé de ne PAS installer d'interface graphique coté serveur. Les distributions Linux suivantes sont couramment utilisée.
-- Debian 8
-- Ubuntu Server 15.10
+Dans l'optique d'optenir les meilleures performances possibles, il est recommandé de ne PAS installer d'interface graphique coté serveur. Les distributions Linux suivantes sont couramment utilisées.
+- [Debian 8.2](https://www.debian.org/index.fr.html)
+- [CentOS](https://www.centos.org)
 
 #### Dev's stations
 Votre station de développement doit être choisie avec soin en fonction de vos préférences. Toutefois, l'utilisation de système d'exploitations proche de l'environement utilisé du coté serveur est recommandée. Privilègiez donc, si possible, les systèmes UNIX.
