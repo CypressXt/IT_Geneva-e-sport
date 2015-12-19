@@ -15,11 +15,12 @@ Ruby on rails | framework web                    | [Ruby on Rails](http://rubyon
 JSON          | language de transfert de données | [JSON wiki](http://www.w3schools.com/json/)
 MySQL         | système de base de données       | [MySQL](https://www.mysql.fr)
 PostgreSQL    | système de base de données       | [PostgreSQL](http://www.postgresql.org)
-Digital Ocean | hébergeur web                    | [DigitalOcean](https://www.digitalocean.com)
+DigitalOcean  | hébergeur web                    | [DigitalOcean](https://www.digitalocean.com)
 OVH           | hébergeur web                    | [OVH](https://www.ovh.com/fr/)
 Bash          | language de script               | [Bash](https://www.gnu.org/software/bash/)
 Python        | language de script               | [Python](https://python.org)
 
+## Communication
 ### Systèmes d'exploitations
 Voici la liste des systèmes d'exploitations couramment utilisés lors du développement d'applications web.
 
@@ -33,8 +34,8 @@ Votre station de développement doit être choisie avec soin en fonction de vos 
 - [Debian](https://www.debian.org/index.fr.html), [Ubuntu](http://www.ubuntu.com), [Linux Minth](http://www.linuxmint.com)
 - [OS X](http://www.apple.com/chfr/osx/)
 
-## Par où commencer
+## Par où commencer?
 1. Installez l'éditeur de votre choix, testez [Atom](http://atom.io) ;).
-2. Apprendre à utiliser Ruby on Rails ou tout autre language de programmation.
+2. Apprendrenez à utiliser Ruby on Rails ou tout autre language de programmation.
   - Concernant Ruby on Rails, [Code School](https://www.codeschool.com/paths/ruby) propose des cours efficaces et accessibles.
   - Code School propose également des cours généraux propres aux [languages SQL](https://www.codeschool.com/paths/database).
