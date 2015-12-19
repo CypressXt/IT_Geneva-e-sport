@@ -11,11 +11,13 @@ Outils        | Type d'outils                  | Site web
 Atom          | editeur de texte               | [Atom](http://atom.io)
 Github        | gestionnaire de version        | [Github](https://desktop.github.com)
 Ruby on rails | framework web                  | [Ruby on Rails](http://rubyonrails.org)
-JSON          | langue de transfère de données | [JSON wiki](http://www.w3schools.com/json/)
+JSON          | langue de transfert de données | [JSON wiki](http://www.w3schools.com/json/)
 MySQL         | système de base de données     | [MySQL](https://www.mysql.fr)
 PostgreSQL    | système de base de données     | [PostgreSQL](http://www.postgresql.org)
 Digital Ocean | hébergeur web                  | [DigitalOcean](https://www.digitalocean.com)
 OVH           | hébergeur web                  | [OVH](https://www.ovh.com/fr/)
+Bash          | language de script             | [Bash](https://www.gnu.org/software/bash/)
+Python        | language de script             | [Python](https://python.org)
 
 ## Principes généraux
 ## Par où commencer
