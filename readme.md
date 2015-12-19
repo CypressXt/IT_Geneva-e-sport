@@ -4,6 +4,7 @@
 ## Introduction
 Voici ici toutes les informations relatives au développement informatique au sein de [Geneva-e-sport](http://geneva-e-sport.com).
 
+## Principes généraux
 ## Outils préconisés
 
 Outil         | Type d'outil                     | Site web
@@ -19,7 +20,19 @@ OVH           | hébergeur web                    | [OVH](https://www.ovh.com/fr
 Bash          | language de script               | [Bash](https://www.gnu.org/software/bash/)
 Python        | language de script               | [Python](https://python.org)
 
-## Principes généraux
+### Systèmes d'exploitations
+Voici la liste des systèmes d'exploitations couramment utilisés lors du développement d'applications web.
+
+#### Serveurs
+Dans l'optique d'optenir les meilleures performances possibles, il est recommandé de ne PAS installer d'interface graphique coté serveur. Les distributions Linux suivantes sont couramment utilisée.
+- Debian 8
+- Ubuntu Server 15.10
+
+#### Dev's stations
+Votre station de développement doit être choisie avec soin en fonction de vos préférences. Toutefois, l'utilisation de système d'exploitations proche de l'environement utilisé du coté serveur est recommandée. Privilègiez donc, si possible, les systèmes UNIX.
+- [Debian](https://www.debian.org/index.fr.html), [Ubuntu](http://www.ubuntu.com), [Linux Minth](http://www.linuxmint.com)
+- [OS X](http://www.apple.com/chfr/osx/)
+
 ## Par où commencer
 1. Installez l'éditeur de votre choix, testez [Atom](http://atom.io) ;).
 2. Apprendre à utiliser Ruby on Rails ou tout autre language de programmation.
