@@ -5,6 +5,9 @@
 Voici ici toutes les informations relatives au développement informatique au sein de [Geneva-e-sport](http://geneva-e-sport.com).
 
 ## Principes généraux
+## Communication
+[Telegram](https://telegram.org) est utilisé comme moyen de communication entre les différents développeurs. Telegram est disponible sur tous les OS desktop et mobile.
+
 ## Outils préconisés
 
 Outil         | Type d'outil                     | Site web
@@ -20,7 +23,6 @@ OVH           | hébergeur web                    | [OVH](https://www.ovh.com/fr
 Bash          | language de script               | [Bash](https://www.gnu.org/software/bash/)
 Python        | language de script               | [Python](https://python.org)
 
-## Communication
 ### Systèmes d'exploitations
 Voici la liste des systèmes d'exploitations couramment utilisés lors du développement d'applications web.
 
