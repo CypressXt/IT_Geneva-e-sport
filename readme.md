@@ -12,12 +12,13 @@ Voici ici toutes les informations relatives au développement informatique au se
 
 Outil         | Type d'outil                        | Site web
 ------------- | ----------------------------------- | --------------------------------------------
-Atom          | editeur de texte                    | [Atom](http://atom.io)
+Atom          | éditeur de texte                    | [Atom](http://atom.io)
 Github        | gestionnaire de version             | [Github](https://desktop.github.com)
 Ruby on rails | framework web                       | [Ruby on Rails](http://rubyonrails.org)
 Capistrano    | outils de déployement Ruby on Rails | [Capistrano](http://capistranorb.com)
 Javascript    | language de script web              | [Javascript](http://www.w3schools.com/js/)
 Jquery        | framework javascript                | [Jquery](https://jquery.com)
+Bootstrap     | framework css                       | [Bootstrap](http://getbootstrap.com)
 SCSS / SASS   | language de style web               | [SCSS / SASS](http://sass-lang.com/guide)
 JSON          | language de transfert de données    | [JSON wiki](http://www.w3schools.com/json/)
 MySQL         | système de base de données          | [MySQL](https://www.mysql.fr)
@@ -43,6 +44,8 @@ Votre station de développement doit être choisie avec soin en fonction de vos 
 ## Documentation
 Voici la liste des documents concernant nos outils favoris.
 - Cours Ruby on Rails [Code School](https://www.codeschool.com/paths/ruby)
+- Cours Ruby on Rails [Openclassrooms](https://openclassrooms.com/courses/initiez-vous-a-ruby-on-rails)
 - Cours SQL [Code School](https://www.codeschool.com/paths/database)
 - Introduction aux Bash UNIX [Openclassrooms](https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux/introduction-aux-scripts-shell)
 - Cours Python [Openclassrooms](https://openclassrooms.com/courses/apprenez-a-programmer-en-python)
+- Cours Bootstrap [Openclassrooms](https://openclassrooms.com/courses/dive-into-bootstrap)
