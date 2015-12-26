@@ -2,7 +2,7 @@
 
 # Dev @ Geneva E-Sport
 ## Introduction
-Voici ici les informations relatives au développement informatique pour [Geneva-e-sport](http://geneva-e-sport.com). Ce document à pour but de faciliter l'intégration de nouveau membre au sein de l'équipe de développeur déjà opérationnelle.
+Voici ici les informations relatives au développement informatique pour [Geneva-e-sport](http://geneva-e-sport.com). Ce document à pour but de faciliter l'intégration de nouveaux membres au sein de l'équipe de développeurs déjà opérationnelle.
 
 ## Principes généraux
 ## Communication
@@ -42,7 +42,7 @@ Votre station de développement doit être choisie avec soin en fonction de vos 
 - [OS X](http://www.apple.com/chfr/osx/)
 
 ## Documentation
-Voici la liste des documents concernant nos outils favoris.
+Voici des documents/cours concernant les outils listés précédemment.
 - Cours Ruby on Rails [Code School](https://www.codeschool.com/paths/ruby)
 - Cours Ruby on Rails [Openclassrooms](https://openclassrooms.com/courses/initiez-vous-a-ruby-on-rails)
 - Cours SQL [Code School](https://www.codeschool.com/paths/database)
