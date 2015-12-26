@@ -1,8 +1,8 @@
-![Geneva-e-sport Logo](https://lh3.googleusercontent.com/upY2lzJL3QArYRNXIgtG5-Ddp566Pm9hTrTIjhk8B7vPlSB6ukXUOFkyThOze7J_m5_1lx8SiyqmAFe6QGyrdGzr8kCAKw-1L04LD9lutc9ZxlRVVNkbiQvsFxb4mhuUpPqsGFenFGas2_cIXvK-1GuUz6H_ALuRVcxIkM_-oLtXvpdYE1auKyuroy5p0o8daR6MTylbzRiiip50gaWZv_MBJfKhv2JBNs6ZOwMZEoPQl1bpylzpmqhImdFg1p1gINya086RViqWjAm-MvqwtKCReoW_XnMOKDgftSJ0fr-aRzw5aVlP_ixNuZ1YIS6-Cu6dZ0c83KHbYXOCFVGwHgd217b-1csd1z7--cKgAt3OksWmA6S732lNEUgeb1m4M6CmmDqueAhNEp-hI-QpMuuBpHwCbY9OnMDbHrtT9XjkX7kGxg089_itxGno4IuT5BiI_o38DUAbKzdICDA463jcKLJ01lztynHKs8uMHOVdf_jBLc8jsPKngObNAVFfMMXkaZMcaGH1BtHsN9ID45SILDJ0FDVjcyei4B9fSZwajrArchr5Tgt4haRISiTKMtnp=w104-no "Logo Geneva-e-sport")
+![Geneva E-Sport Logo](https://lh3.googleusercontent.com/upY2lzJL3QArYRNXIgtG5-Ddp566Pm9hTrTIjhk8B7vPlSB6ukXUOFkyThOze7J_m5_1lx8SiyqmAFe6QGyrdGzr8kCAKw-1L04LD9lutc9ZxlRVVNkbiQvsFxb4mhuUpPqsGFenFGas2_cIXvK-1GuUz6H_ALuRVcxIkM_-oLtXvpdYE1auKyuroy5p0o8daR6MTylbzRiiip50gaWZv_MBJfKhv2JBNs6ZOwMZEoPQl1bpylzpmqhImdFg1p1gINya086RViqWjAm-MvqwtKCReoW_XnMOKDgftSJ0fr-aRzw5aVlP_ixNuZ1YIS6-Cu6dZ0c83KHbYXOCFVGwHgd217b-1csd1z7--cKgAt3OksWmA6S732lNEUgeb1m4M6CmmDqueAhNEp-hI-QpMuuBpHwCbY9OnMDbHrtT9XjkX7kGxg089_itxGno4IuT5BiI_o38DUAbKzdICDA463jcKLJ01lztynHKs8uMHOVdf_jBLc8jsPKngObNAVFfMMXkaZMcaGH1BtHsN9ID45SILDJ0FDVjcyei4B9fSZwajrArchr5Tgt4haRISiTKMtnp=w104-no "Logo Geneva-e-sport")
 
-# Dev @ Geneva-e-sport
+# Dev @ Geneva E-Sport
 ## Introduction
-Voici ici toutes les informations relatives au développement informatique au sein de [Geneva-e-sport](http://geneva-e-sport.com).
+Voici ici les informations relatives au développement informatique pour [Geneva-e-sport](http://geneva-e-sport.com). Ce document à pour but de faciliter l'intégration de nouveau membre au sein de l'équipe de développeur déjà opérationnelle.
 
 ## Principes généraux
 ## Communication
