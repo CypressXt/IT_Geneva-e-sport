@@ -1,7 +1,7 @@
 #!/bin/bash
 #################################
 #   Clément Hampaï 30.12.2016   #
-#   Hosting config             #
+#   Hosting config              #
 #################################
 hosting_dir="/var/www"
 wordpress_dl_link="https://wordpress.org/latest.zip"
@@ -73,18 +73,17 @@ function ask_new_db {
 
 # create the mysql db
 function create_database {
-    read -p "Write the name of the db " db_name
+    read -p "Write the name of the db: " db_name
     if [ -z "$db_name" ]
     then
         echo "  give a correct db name !"
     fi
 
-    read -p "Write the username for the new db " db_username
+    read -p "Write the username for the new db: " db_username
     if [ -z "$db_username" ]
     then
         echo "  give a correct db username !"
     fi
-
 
     db_password=$(openssl rand -base64 12)
     Q1="CREATE DATABASE IF NOT EXISTS $db_name;"
