@@ -45,6 +45,7 @@ Votre station de développement doit être choisie avec soin en fonction de vos 
 Voici des documents/cours concernant les outils listés précédemment.
 - Cours Ruby on Rails [Code School](https://www.codeschool.com/paths/ruby)
 - Cours Ruby on Rails [Openclassrooms](https://openclassrooms.com/courses/initiez-vous-a-ruby-on-rails)
+- Tutoriel d'installation de Ruby on Rails [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-on-ubuntu-14-04-using-rvm)
 - Cours SQL [Code School](https://www.codeschool.com/paths/database)
 - Introduction aux Bash UNIX [Openclassrooms](https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux/introduction-aux-scripts-shell)
 - Cours Python [Openclassrooms](https://openclassrooms.com/courses/apprenez-a-programmer-en-python)
