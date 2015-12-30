@@ -8,6 +8,9 @@ Voici ici les informations relatives au développement informatique pour [Geneva
 ## Communication
 [Telegram](https://telegram.org) est utilisé comme moyen de communication entre les différents développeurs. Telegram est disponible sur tous les OS desktop et mobile.
 
+## Projets en cours
+- Zone membre pour le site de [Geneva-e-sport](http://geneva-e-sport.com) | [Github](https://github.com/CypressXt/Geneva-E-Sport-Member-Zone)
+
 ## Outils préconisés
 
 Outil         | Type d'outil                        | Site web
