@@ -3,14 +3,14 @@
 #   Clément Hampaï 30.12.2016   #
 #   Hosting config             #
 #################################
-hosting_dir="/var/www/"
+hosting_dir="/var/www"
 wordpress_dl_link="https://wordpress.org/latest.zip"
 MySQL=`which mysql`
 
 
 # Check if the hosting dir is correct
 function is_existing_hosting_dir {
-    if [ !-e "$hosting_dir" ]
+    if [ ! -e "$hosting_dir" ]
     then
         echo "  Unexisting hosting dir !"
         exit 1
@@ -18,11 +18,11 @@ function is_existing_hosting_dir {
 }
 
 function ask_clear_hosting_dir {
-    read -p "Do you wish to clear the hosting dir ? [y/n]" answer
+    read -p "Do you wish to clear the hosting dir ? [y/n] " answer
     case $answer in
-        [Yy]* ) clear_hosting_dir; break;;
-        [Nn]* ) exit 1;;
-       * ) echo "Please answer yes or no.";;
+        [Yy]* ) clear_hosting_dir;;
+        [Nn]* ) echo "  skipping clearing hosting dir";;
+       * ) echo "   Please answer yes or no.";;
     esac
 }
 
@@ -33,27 +33,29 @@ function clear_hosting_dir {
 }
 
 function ask_wordpress {
-    read -p "Do you wish to install Wordpress? [y/n]" answer
+    read -p "Do you wish to install Wordpress? [y/n] " answer
     case $answer in
-        [Yy]* ) dl_wordpress; break;;
-        [Nn]* ) exit 1;;
-       * ) echo "Please answer yes or no.";;
+        [Yy]* ) dl_wordpress;;
+        [Nn]* ) echo "  skipping wordpress install";;
+       * ) echo "   Please answer yes or no.";;
     esac
 }
 
 # Download the lastest wordpress version and extract it
 function dl_wordpress {
-    read -p "Where would you like to install Wordpress ?" dl_path
-    if [ -z "$db_name" ]
+    read -p "Where would you like to install Wordpress ? " dl_path
+    sudo mkdir -p $dl_path
+    if [ -z "$dl_path" ]
     then
         echo "  give a correct path !"
     fi
 
     if [ -n "$dl_path" ] && [ -e "$dl_path" ]
     then
-        sudo wget -O "$dl_path"/wordpress.zip "$wordpress_dl_link"
-        sudo unzip "$dl_path"/wordpress.zip -d "$dl_path"/
-        sudo rm "$dl_path"/wordpress.zip
+        sudo wget -O "$dl_path"wordpress.zip "$wordpress_dl_link"
+        sudo unzip "$dl_path"wordpress.zip -d "$dl_path"/
+        sudo rm "$dl_path"wordpress.zip
+        sudo chown -R www-data:www-data "$dl_path"*
     else
         echo "  The wordpress install path is incorrect !"
         exit 1
@@ -61,23 +63,23 @@ function dl_wordpress {
 }
 
 function ask_new_db {
-    read -p "Do you wish to create a new db? [y/n]" answer
+    read -p "Do you wish to create a new db? [y/n] " answer
     case $answer in
-        [Yy]* ) create_database; break;;
-        [Nn]* ) exit 1;;
-       * ) echo "Please answer yes or no.";;
+        [Yy]* ) create_database;;
+        [Nn]* ) echo "  skipping creating new db";;
+       * ) echo "   Please answer yes or no.";;
     esac
 }
 
 # create the mysql db
 function create_database {
-    read -p "Write the name of the db" db_name
+    read -p "Write the name of the db " db_name
     if [ -z "$db_name" ]
     then
         echo "  give a correct db name !"
     fi
 
-    read -p "Write the username for the new db" db_username
+    read -p "Write the username for the new db " db_username
     if [ -z "$db_username" ]
     then
         echo "  give a correct db username !"
@@ -98,8 +100,8 @@ function recap_mysql {
     echo -e "--------------------------------------------------------"
     echo -e "           MySQL credentials"
     echo -e "--------------------------------------------------------"
-    echo -e "   username:       "$1
-    echo -e "   database name:      "$2
+    echo -e "   username:               "$1
+    echo -e "   database name:          "$2
     echo -e "   database password:      "$3
     echo -e "--------------------------------------------------------"
 }
