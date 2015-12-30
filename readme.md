@@ -14,7 +14,7 @@ Voici ici les informations relatives au développement informatique pour [Geneva
 ## Outils préconisés
 
 Outil         | Type d'outil                        | Site web
-------------- | ----------------------------------- | --------------------------------------------
+------------- | ----------------------------------- | ----------------------------------------------------------------------------
 Atom          | éditeur de texte                    | [Atom](http://atom.io)
 Github        | gestionnaire de version             | [Github](https://desktop.github.com)
 Ruby on rails | framework web                       | [Ruby on Rails](http://rubyonrails.org)
@@ -28,6 +28,7 @@ MySQL         | système de base de données          | [MySQL](https://www.mysq
 PostgreSQL    | système de base de données          | [PostgreSQL](http://www.postgresql.org)
 Bash          | language de script                  | [Bash](https://www.gnu.org/software/bash/)
 Python        | language de script                  | [Python](https://python.org)
+Markdowm      | language de documentation           | [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 DigitalOcean  | hébergeur web                       | [DigitalOcean](https://www.digitalocean.com)
 OVH           | hébergeur web                       | [OVH](https://www.ovh.com/fr/)
 
