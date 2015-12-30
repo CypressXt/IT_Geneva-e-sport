@@ -11,6 +11,7 @@ MySQL=`which mysql`
 # Check if the hosting dir is correct
 function is_existing_hosting_dir {
     if [ !-e "$hosting_dir" ]
+    then
         echo "  Unexisting hosting dir !"
         exit 1
     fi
