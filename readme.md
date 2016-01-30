@@ -11,7 +11,8 @@ Voici ici les informations relatives au développement informatique pour [Geneva
 [Rejoignez-nous ici !](http://goo.gl/forms/tbw9CwY2tk)
 
 ## Projets en cours
-- Zone membre pour le site de [Geneva-e-sport](http://geneva-e-sport.com) | [Github](https://github.com/CypressXt/Geneva-E-Sport-Member-Zone)
+- Zone membre pour le site de [Geneva-e-sport](http://geneva-e-sport.com)
+- Application web permettant la création de pronostics
 
 ## Outils préconisés
 
