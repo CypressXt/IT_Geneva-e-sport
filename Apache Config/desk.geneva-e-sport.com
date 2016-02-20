@@ -1,0 +1,59 @@
+###########################################
+#   Clément Hampaï 5.02.2016              #
+#   Apache config:                        #
+#       -desk.geneva-e-sport.com          #
+###########################################
+
+NameVirtualHost *:80
+ServerSignature Off
+ServerTokens Prod
+
+<VirtualHost *:80>
+    ServerName desk.geneva-e-sport.com
+    DocumentRoot /var/www/geneva-e-sport.com/desk/wordpress/
+    CustomLog /var/log/apache2/desk.geneva-e-sport.com.log combined
+    ErrorLog /var/log/apache2/desk.geneva-e-sport.com.error.log
+    Alias /phpmyadmin /var/www/phpmyadmin/
+
+    <Directory /var/www/geneva-e-sport.com/desk/>
+        Order Allow,Deny
+        Allow from all
+    </Directory>
+
+    <Directory /var/www/phpmyadmin/>
+        Order Allow,Deny
+        Allow from all
+    </Directory>
+
+    <Directory /var/www/geneva-e-sport.com/desk/wordpress/>
+    	# BEGIN WordPress
+    	<IfModule mod_rewrite.c>
+    		RewriteEngine On
+    		RewriteBase /
+    		RewriteRule ^index\.php$ - [L]
+    		RewriteCond %{REQUEST_FILENAME} !-f
+    		RewriteCond %{REQUEST_FILENAME} !-d
+    		RewriteRule . /index.php [L]
+    	</IfModule>
+    	# END WordPress
+    </Directory>
+
+    ## Expires Headers
+    <IfModule mod_expires.c>
+            # Enable expirations
+            ExpiresActive On
+            # Default directive
+            ExpiresDefault "access plus 1 month"
+            # My favicon
+            ExpiresByType image/x-icon "access plus 1 year"
+            # Images
+            ExpiresByType image/gif "access plus 1 month"
+            ExpiresByType image/png "access plus 1 month"
+            ExpiresByType image/jpg "access plus 1 month"
+            ExpiresByType image/jpeg "access plus 1 month"
+            # CSS
+            ExpiresByType text/css "access 1 month"
+            # Javascript
+            ExpiresByType application/javascript "access plus 1 year"
+    </IfModule>
+</VirtualHost>
