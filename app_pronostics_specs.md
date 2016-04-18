@@ -42,4 +42,4 @@ L'application web doit permettre la création de pronostics sur différents jeux
 
 Voici la liste des technologies recommandées coté client et serveur. Cette liste n'est, encore une fois, pas exhaustive, il sagit simplement de conseil, si tu te sens plus apte à créer une telle application avec d'autres technologies, c'est toi le patron !
 
-[Technologies conseilées](https://github.com/CypressXt/IT_Geneva-e-sport#outils-préconisés)
+[Technologies conseillées](https://github.com/CypressXt/IT_Geneva-e-sport#outils-préconisés)
