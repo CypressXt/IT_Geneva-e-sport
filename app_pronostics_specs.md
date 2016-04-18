@@ -8,6 +8,15 @@ Jusqu'à présent, les pronostics étaient recueillis sur des feuilles de papier
 
 Il est donc temps que cela change !
 
+### Cadre légal
+
+Pour pouvoir répondre à cet appel d'offre, vous devez remplir les conditions suivantes:
+
+- Habiter à Genève
+- Avoir entre 15 et 25 ans
+
+Vous devez également savoir que 40 heures seront rémunérées bien que le projet risque de requérir plus de temps.
+
 ## Fonctionnalités souhaitées
 
 Voici quelques fonctionnalités incontournables pour le bon fonctionnement d'une telle application. Cette liste n'est évidemment pas exhaustive, toute autre idée peut bien entendu être rajouté.
