@@ -18,4 +18,6 @@ BACKUPZIP=/tmp/"$backup_name"
 # Coping new content
 drive upload -p 0B_Y7zEMh3vaISllnV3JhaGFCcFU --file ${BACKUPZIP}
 
+/home/cypress/cyprxt_backup.sh "${BACKUPZIP}"
+
 rm ${BACKUPZIP}
